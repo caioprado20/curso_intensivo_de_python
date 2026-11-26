@@ -10,5 +10,7 @@ bairros.append("Parque Verde")
 bairros.append("Umarizal")
 bairros.append("Una")
 print(bairros)
-print(bairros=="nazare")
+print("nazare" in bairros )
+print(("nazare" in bairros  )  or ('Una' in bairros))
+print("una".title() in bairros)
 
